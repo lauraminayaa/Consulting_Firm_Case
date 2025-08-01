@@ -1,7 +1,3 @@
-Certainly! Here’s your README.md, formatted for maximum impact and clarity for recruiters. I’ve added bold section headers, bullet points, and improved readability for a professional portfolio presentation.
-
----
-
 # **Uncovering Profitability: A Power BI Case Study**
 
 This project showcases a complete data analysis workflow—from raw data extraction to a comprehensive Power BI dashboard—aimed at uncovering true profitability and providing actionable business insights.
