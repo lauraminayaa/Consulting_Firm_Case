@@ -1,8 +1,3 @@
-Absolutely! Here is your **final, fully integrated README**—including the Table of Contents, optimized intro, value statement, quick highlights, testimonials, all your project sections, and clear contact info.  
-Just copy and paste directly into your `README.md`!
-
----
-
 # Uncovering Profitability: A Power BI Case Study
 
 **Turning raw business data into actionable profit: uncovering $724K in hidden value with executive dashboards and sharp analytics.**
