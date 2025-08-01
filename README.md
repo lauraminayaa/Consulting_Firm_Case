@@ -189,15 +189,15 @@ Detailed financial analytics, scatter plot disproving revenue-hour link, and los
 
 ## Testimonials
 
-> “Laura was super efficient!!! Her communication was excellent. Her professionalism, her ability to understand the job and the extra mile she goes to exceed the expectations of the client is truly remarkable!!! We are looking forward to doing a lot more work with her.”  
-> — Shanil, Australia tourism business, Sri Lanka
+> ⭐⭐⭐⭐⭐ “Laura was super efficient!!! Her communication was excellent. Her professionalism, her ability to understand the job and the extra mile she goes to exceed the expectations of the client is truly remarkable!!! We are looking forward to doing a lot more work with her.”  
+> — Shanil, Tourism Manager (Australia)
 
-> “I really enjoyed working with Laura, she is very responsible and has a very good way of working. Recommended 100%”  
+> ⭐⭐⭐⭐⭐ “I really enjoyed working with Laura, she is very responsible and has a very good way of working. Recommended 100%”  
 > — Josue Viera, CEO & Founder, SocialLit (Chile)
 
-> “I had to ask her to create a dashboard to be delivered in 24 hours, and she did it very satisfactorily. At all times, she kept in communication, showed progress, explained every procedure, and made requested modifications with no problem—always professional and respectful. I absolutely recommend her!”  
-> — fluchtenberg, web developer, Fiverr (Argentina)
-
+> ⭐⭐⭐⭐⭐ “I had to ask her to create a dashboard to be delivered in 24 hours, and she did it very satisfactorily. At all times, she kept in communication, showed progress, explained every procedure, and made requested modifications with no problem—always professional and respectful. I absolutely recommend her!”  
+> — Fluchtenberg, Web Developer, Fiverr (Argentina)
+- [Source](https://es.fiverr.com/laura155555?public_mode=true)
 ---
 
 ## Conclusion & Learnings
