@@ -14,6 +14,7 @@
   - [2. Data Modeling & Validation](#2-data-modeling--validation)
   - [3. Strategic Storytelling & Visualization](#3-strategic-storytelling--visualization)
 - [Key Insights & Results](#key-insights--results)
+- [Technical Implementation Examples](#technical-implementation-examples)
 - [Technical Skills Demonstrated](#technical-skills-demonstrated)
 - [Dashboard Previews](#dashboard-previews)
 - [Testimonials](#testimonials)
@@ -90,7 +91,77 @@ This project demonstrates a rigorous, end-to-end analytics workflow—from raw E
 
 ---
 
+## Technical Implementation Examples
+
+### 1. SQL for Data Cleaning & Aggregation
+
+This query joins time entry data with customer data to audit unassigned labor costs, ensuring no relevant data is ignored:
+
+```sql
+-- Join time entries with client info to audit unassigned labor costs
+SELECT
+    TE.employee_id,
+    TE.time_worked,
+    IC.client_name,
+    -- Use CASE to flag unassigned efforts
+    CASE
+        WHEN IC.client_name IS NULL THEN '⚠️  Unassigned client effort'
+        ELSE '✓ Assigned to client'
+    END AS audit_flag
+FROM
+    dbo.TIME_ENTRIES AS TE
+LEFT JOIN
+    dbo.INVOICE_CUSTOMER AS IC
+ON
+    TE.customer_id = IC.customer_id;
+```
+
+---
+
+### 2. DAX for Key Performance Indicators (KPIs)
+
+This DAX measure defines Profit, enabling precise business analysis beyond raw transactional data:
+
+```DAX
+Profit = 
+VAR TotalRevenue = SUM('INVOICE_CUSTOMER'[INVOICE_AMOUNT])
+VAR TotalPayroll = SUM('INVOICE_EMPLOYEE'[PAYROLL_COST])
+RETURN
+    TotalRevenue - TotalPayroll
+```
+
+---
+
+### 3. Power Query (M Language) for Data Transformation
+
+A key transformation step to standardize date formats for reliable time-series analysis:
+
+```m
+let
+    Source = Csv.Document(...),
+    #"Changed Type" = Table.TransformColumnTypes(Source,{
+        {"Date", type datetime},
+        {"Employee ID", type text}
+        // ... other columns
+    }),
+    #"Standardized Dates" = Table.TransformColumns(
+        #"Changed Type", {{"Date", DateTime.Date}}
+    )
+in
+    #"Standardized Dates"
+```
+
+---
+
 ## Technical Skills Demonstrated
+
+| Tool         | Use Case                       |
+|--------------|-------------------------------|
+| **SQL**      | Data extraction, cleaning      |
+| **Power Query** | Data transformation        |
+| **Power BI** | Data modeling, visualization   |
+| **DAX**      | KPI, metric calculation        |
+| **Excel**    | Initial data source            |
 
 - **Data Extraction & ETL:** End-to-end pipeline from Excel to SQL
 - **Data Modeling:** Star schema, relationship design in Power BI
@@ -108,6 +179,7 @@ Key KPIs, profit leaders, and loss-driving clients.
 
 ### Workforce Insights  
 Employee performance, payroll breakdown, and anomaly flags.
+<img width="1429" height="803" alt="Captura de pantalla 2025-08-01 002239" src="https://github.com/user-attachments/assets/ec57aff1-bd85-45d8-b6eb-caeaf53af64a" />
 
 ### Finance Deep Dive  
 Detailed financial analytics, scatter plot disproving revenue-hour link, and loss-making projects.  
@@ -147,4 +219,4 @@ This project proves that rigorous data validation and a critical mindset can sha
 
 ---
 
-If you need further tweaks, more technical detail, or want to highlight other projects, just let me know! Good luck—you’re set to impress recruiters and hiring managers.
+**This README now showcases your technical depth, hands-on code, and business impact—perfect for both recruiters and technical managers. If you want to add a data model diagram or further code samples, let me know!**
