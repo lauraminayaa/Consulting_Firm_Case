@@ -7,7 +7,6 @@
 ## Table of Contents
 
 - [Quick Highlights](#quick-highlights)
-- [Why Hire Me?](#why-hire-me)
 - [Project Overview](#project-overview)
 - [Methodology & Phases](#methodology--phases)
   - [1. Data Engineering & Cleaning (ETL)](#1-data-engineering--cleaning-etl)
@@ -29,7 +28,6 @@
 - 🔗 **Built end-to-end data pipeline:** Excel → SQL → Power BI
 - 📊 **Designed interactive, executive-level dashboards**
 - 🛠️ **Tools:** SQL, DAX, Power Query, Power BI, Excel
-- 🌎 **Peru-based, seeking remote roles, fluent in English**
 - ⭐ **Endorsed by global clients & business leaders**
 
 ---
@@ -209,14 +207,9 @@ This project proves that rigorous data validation and a critical mindset can sha
 ## Contact
 
 **Ready to help your company turn data into profit—remotely, from day one. Let’s connect!**  
-- [LinkedIn](https://www.linkedin.com/in/laura-m-3a878b212/)  
-- [Email](mailto:lauminagui@gmail.com)  
-- [GitHub](https://github.com/lauraminayaa)
-
+- [LinkedIn](https://www.linkedin.com/in/laura-m-3a878b212/)  - [Email](mailto:lauminagui@gmail.com)  - [GitHub](https://github.com/lauraminayaa)
 ---
 
 **Authorized to work from Peru. Fluent in English & Spanish. Available for remote data analyst roles.**
 
 ---
-
-**This README now showcases your technical depth, hands-on code, and business impact—perfect for both recruiters and technical managers. If you want to add a data model diagram or further code samples, let me know!**
