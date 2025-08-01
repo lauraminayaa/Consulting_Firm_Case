@@ -1,10 +1,10 @@
-#Uncovering Profitability: A Power BI Case Study
+#Uncovering Profitability: A Power BI Case Study#
 This project provides a complete data analysis workflow, from raw data extraction to a comprehensive Power BI dashboard, with the goal of uncovering true profitability and providing actionable insights to senior management.
 
-##Project Summary
+##Project Summary##
 The primary goal was to move beyond a simplistic hourly billing model to uncover the business's true profitability. Through a robust data model and challenging initial assumptions, this project provided key insights into revenue, costs, and workforce performance, enabling strategic decision-making.
 
-##Key Features & Business Insights
+##Key Features & Business Insights##
 1. Executive Summary
 Strong Profitability: Analysis revealed strong profitability, with the business achieving $724K in Profit from a total revenue of $1.07M.
 
@@ -34,20 +34,20 @@ Power Query: Power Query was used for advanced data cleaning, transformation, an
 
 Data Visualization: Interactive and business-centric dashboards were designed and developed in Power BI to communicate complex findings clearly and concisely.
 
-#Dashboard Preview
+#Dashboard Preview#
 Here are screenshots of the final Power BI dashboards.
 
-##Executive Summary
+##Executive Summary##
 This dashboard provides a high-level overview of key financial metrics like Profit, Revenue, and Payroll Cost, along with a summary of top-performing employees and a list of clients driving losses.
 <img width="1432" height="797" alt="Captura de pantalla 2025-08-01 002400" src="https://github.com/user-attachments/assets/495b501a-cfba-4233-aa02-bae172928999" />
 
-##Workforce Insights
+##Workforce Insights##
 This dashboard focuses on workforce performance and cost optimization, featuring a timeline of Payroll Cost versus Hours and a detailed table of employee data anomalies.
 ![WhatsApp Image 2025-08-01 at 12 23 28 AM](https://github.com/user-attachments/assets/25c893d6-b228-4751-8f25-97d92a3c4d87)
 
-##Finance Deep Dive
+##Finance Deep Dive##
 This dashboard presents a detailed financial analysis, including the critical scatter plot showing the lack of correlation between revenue and hours, and a table identifying non-profitable projects and services.
 <img width="1429" height="803" alt="Captura de pantalla 2025-08-01 002239" src="https://github.com/user-attachments/assets/9de90c1b-2944-4133-910a-259aed629c67" />
 
-#Conclusion & Learnings
+#Conclusion & Learnings#
 This project underscores the importance of critical thinking and data validation. By refuting the initial hourly-rate assumption, the analysis provided a clear narrative of the business's true financial health, enabling more accurate and impactful recommendations.
