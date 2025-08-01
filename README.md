@@ -29,13 +29,6 @@
 - 📊 **Designed interactive, executive-level dashboards**
 - 🛠️ **Tools:** SQL, DAX, Power Query, Power BI, Excel
 - ⭐ **Endorsed by global clients & business leaders**
-
----
-
-## Why Hire Me?
-
-As a data analyst, I bridge the gap between complex data and business action. I pinpoint profit opportunities, flag risks, and deliver insights executives use to make smarter, faster decisions. My work transforms “just data” into real business impact—every time.
-
 ---
 
 ## Project Overview
