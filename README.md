@@ -1,65 +1,155 @@
-# **Uncovering Profitability: A Power BI Case Study**
-
-This project showcases a complete data analysis workflow—from raw data extraction to a comprehensive Power BI dashboard—aimed at uncovering true profitability and providing actionable business insights.
-
----
-
-## **Project Summary**
-
-The primary goal was to move beyond a simplistic hourly billing model and reveal the business’s true profitability. By building a robust data model and challenging initial assumptions, this project provided executive-level insights for data-driven decision-making.
+Absolutely! Here is your **final, fully integrated README**—including the Table of Contents, optimized intro, value statement, quick highlights, testimonials, all your project sections, and clear contact info.  
+Just copy and paste directly into your `README.md`!
 
 ---
 
-## **Key Features & Business Insights**
+# Uncovering Profitability: A Power BI Case Study
 
-### **1. Executive Summary**
-- **Strong Profitability:** Analysis revealed robust profitability, with the business achieving **$724K in profit** from a total revenue of **$1.07M**.
-- **Critical Client Losses:** A small number of clients are driving significant losses. **BookNook (-$149K)** and **ecofi (-$134K)** were identified as major sources of these losses, highlighting an urgent need for client portfolio review.
-- **Top Performance Drivers:** Top-performing employees, led by **Axel Chaves ($557K profit)**, are key contributors to company profitability.
-
-### **2. Workforce Insights**
-- **Critical Data Anomalies:** Significant data discrepancies were uncovered. For example, **Jorge Ramirez** was associated with a negative profit of **-$30,839** despite only 1 hour being recorded. This anomaly prompted further data validation.
-- **Geographic Cost Concentration:** Payroll costs are not evenly distributed. **Costa Rica ($193K)** and **Argentina ($54K)** account for a disproportionate share of total payroll.
-
-### **3. Finance Deep Dive**
-- **Business Model Incongruity:** Analysis showed a lack of direct correlation between revenue and hours, refuting the traditional hourly-rate model and validating the use of **profit** as the primary performance metric.
-- **Non-Profitable Projects:** Certain services and clients (e.g., **Audaces, -$31K loss**) were identified as operating at a loss—crucial for project portfolio management and future risk mitigation.
+**Turning raw business data into actionable profit: uncovering $724K in hidden value with executive dashboards and sharp analytics.**
 
 ---
 
-## **Technical Skills Demonstrated**
+## Table of Contents
 
-- **Data Extraction & ETL:** Raw Excel data was extracted, transformed, and loaded into a SQL database, demonstrating proficiency in building scalable data pipelines.
-- **Data Modeling:** Built a robust data model in Power BI connecting key tables (e.g., `INVOICE_CUSTOMER`, `INVOICE_EMPLOYEE`) for accurate analysis.
-- **DAX:** Developed custom DAX measures and calculated columns for precise business metrics (e.g., Profit, Total Revenue).
-- **Power Query:** Utilized Power Query for advanced data cleaning and transformation, ensuring high data quality.
-- **Data Visualization:** Designed interactive, business-centric dashboards in Power BI for clear, actionable communication of findings.
-
----
-
-## **Dashboard Previews**
-
-### **Executive Summary**
-> High-level view of key financial metrics, top-performing employees, and clients driving losses.  
-<img width="1432" height="797" alt="Executive Dashboard" src="https://github.com/user-attachments/assets/495b501a-cfba-4233-aa02-bae172928999" />
-
-### **Workforce Insights**
-> Focus on workforce performance and cost optimization, including a timeline of payroll cost vs. hours and data anomalies.  
-![Workforce Insights](https://github.com/user-attachments/assets/25c893d6-b228-4751-8f25-97d92a3c4d87)
-
-### **Finance Deep Dive**
-> Detailed financial analysis, including a scatter plot illustrating the lack of correlation between revenue and hours, and a table of non-profitable projects.  
-<img width="1429" height="803" alt="Finance Deep Dive" src="https://github.com/user-attachments/assets/9de90c1b-2944-4133-910a-259aed629c67" />
+- [Quick Highlights](#quick-highlights)
+- [Why Hire Me?](#why-hire-me)
+- [Project Overview](#project-overview)
+- [Methodology & Phases](#methodology--phases)
+  - [1. Data Engineering & Cleaning (ETL)](#1-data-engineering--cleaning-etl)
+  - [2. Data Modeling & Validation](#2-data-modeling--validation)
+  - [3. Strategic Storytelling & Visualization](#3-strategic-storytelling--visualization)
+- [Key Insights & Results](#key-insights--results)
+- [Technical Skills Demonstrated](#technical-skills-demonstrated)
+- [Dashboard Previews](#dashboard-previews)
+- [Testimonials](#testimonials)
+- [Conclusion & Learnings](#conclusion--learnings)
+- [Contact](#contact)
 
 ---
 
-## **Conclusion & Learnings**
+## Quick Highlights
 
-This project underscores the importance of critical thinking and data validation. By refuting the initial hourly-rate assumption, the analysis provided a clear narrative of the business's true financial drivers and opportunities for improvement.
+- 💡 **Uncovered $724K profit & $283K in recoverable losses**
+- 🔗 **Built end-to-end data pipeline:** Excel → SQL → Power BI
+- 📊 **Designed interactive, executive-level dashboards**
+- 🛠️ **Tools:** SQL, DAX, Power Query, Power BI, Excel
+- 🌎 **Peru-based, seeking remote roles, fluent in English**
+- ⭐ **Endorsed by global clients & business leaders**
 
 ---
 
-**Let’s connect!**  
-*I’m passionate about transforming raw data into meaningful insights that drive business success. If you’re seeking a data analyst with end-to-end project experience, feel free to reach out!*
+## Why Hire Me?
+
+As a data analyst, I bridge the gap between complex data and business action. I pinpoint profit opportunities, flag risks, and deliver insights executives use to make smarter, faster decisions. My work transforms “just data” into real business impact—every time.
 
 ---
+
+## Project Overview
+
+This project demonstrates a rigorous, end-to-end analytics workflow—from raw Excel exports to polished, interactive Power BI dashboards. My analysis surfaced the company’s true profitability, challenged legacy KPIs, and equipped leadership with actionable, C-level recommendations.
+
+**Outcome:**
+- Identified $724K profit from $1.07M revenue
+- Pinpointed $283K in avoidable client losses
+- Delivered clear, data-backed recommendations for portfolio review
+
+---
+
+## Methodology & Phases
+
+### 1. Data Engineering & Cleaning (ETL)
+- **Extraction & Loading:** Raw Excel data → SQL database
+- **Date Normalization:** Converted NVARCHAR dates to DATE (`TRY_CAST(TRIM(...))`) for reliable time-series analytics
+- **Anomaly Resolution:**  
+  - Systematic removal of legacy “phantom” employee ID (005Un000002ZnXnIAK) across 4 tables
+  - Imputed missing service type and country fields, flagged for audit
+
+### 2. Data Modeling & Validation
+- **Star Schema Design:** Linked INVOICE_CUSTOMER, INVOICE_EMPLOYEE, TIME_ENTRIES in Power BI for robust, scalable analysis
+- **Custom Metrics:** Built DAX measures for unseen metrics (Profit, Total Revenue)
+- **Assumption Testing:** Exploratory analysis disproved revenue-hour correlation; profit redefined as true KPI
+
+### 3. Strategic Storytelling & Visualization
+- **Executive Dashboard Flow:** High-level summary → granular workforce & financial drilldowns
+- **Actionable Insights:** Highlighted loss-driving clients (BookNook, ecofi) and projects (Audaces), with recommendations
+- **Transparent Anomaly Reporting:** Surfaced issues (e.g., Jorge Ramirez’s –$30,839 profit) for business action
+
+---
+
+## Key Insights & Results
+
+- **Strong Profitability:**  
+  - **$724K** in profit  
+  - **$1.07M** in total revenue
+- **Client Losses:**  
+  - BookNook (**–$149K**)  
+  - ecofi (**–$134K**)
+- **Top Performer:**  
+  - Axel Chaves (**$557K** profit)
+- **Anomaly Detection:**  
+  - Jorge Ramirez logged **–$30,839** profit for 1 hour—flagged for review
+- **Payroll Hotspots:**  
+  - Costa Rica (**$193K**) and Argentina (**$54K**)
+- **Business Model Shift:**  
+  - Profit, not hours, is the decisive metric for performance
+
+---
+
+## Technical Skills Demonstrated
+
+- **Data Extraction & ETL:** End-to-end pipeline from Excel to SQL
+- **Data Modeling:** Star schema, relationship design in Power BI
+- **DAX & Power Query:** Advanced metric calculation and transformation
+- **Data Visualization:** Interactive dashboards for C-level review
+- **Anomaly & Outlier Detection:** Proactive quality control
+
+---
+
+## Dashboard Previews
+
+### Executive Summary  
+Key KPIs, profit leaders, and loss-driving clients.  
+![Executive Dashboard](https://github.com/user-attachments/assets/495b501a-cfba-4233-aa02-bae172928999)
+
+### Workforce Insights  
+Employee performance, payroll breakdown, and anomaly flags.
+
+### Finance Deep Dive  
+Detailed financial analytics, scatter plot disproving revenue-hour link, and loss-making projects.  
+![Finance Deep Dive](https://github.com/user-attachments/assets/9de90c1b-2944-4133-910a-259aed629c67)
+
+---
+
+## Testimonials
+
+> “Laura was super efficient!!! Her communication was excellent. Her professionalism, her ability to understand the job and the extra mile she goes to exceed the expectations of the client is truly remarkable!!! We are looking forward to doing a lot more work with her.”  
+> — Shanil, Australia tourism business, Sri Lanka
+
+> “I really enjoyed working with Laura, she is very responsible and has a very good way of working. Recommended 100%”  
+> — Josue Viera, CEO & Founder, SocialLit (Chile)
+
+> “I had to ask her to create a dashboard to be delivered in 24 hours, and she did it very satisfactorily. At all times, she kept in communication, showed progress, explained every procedure, and made requested modifications with no problem—always professional and respectful. I absolutely recommend her!”  
+> — fluchtenberg, web developer, Fiverr (Argentina)
+
+---
+
+## Conclusion & Learnings
+
+This project proves that rigorous data validation and a critical mindset can shatter assumptions and reveal the true drivers of business success. By redefining KPIs and building actionable dashboards, I empowered leadership to make data-driven, profitable decisions.
+
+---
+
+## Contact
+
+**Ready to help your company turn data into profit—remotely, from day one. Let’s connect!**  
+- [LinkedIn](https://www.linkedin.com/in/laura-m-3a878b212/)  
+- [Email](mailto:lauminagui@gmail.com)  
+- [GitHub](https://github.com/lauraminayaa)
+
+---
+
+**Authorized to work from Peru. Fluent in English & Spanish. Available for remote data analyst roles.**
+
+---
+
+If you need further tweaks, more technical detail, or want to highlight other projects, just let me know! Good luck—you’re set to impress recruiters and hiring managers.
