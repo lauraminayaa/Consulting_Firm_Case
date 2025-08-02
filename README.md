@@ -11,8 +11,8 @@
 - [Key Insights & Results](#key-insights--results)
 - [Technical Skills Demonstrated](#technical-skills-demonstrated)
 - [Dashboard Previews](#dashboard-previews)
-- [Testimonials](#testimonials)
 - [Conclusion & Learnings](#conclusion--learnings)
+- [Testimonials](#testimonials)
 - [Contact](#contact)
 
 ---
@@ -89,6 +89,11 @@ Detailed financial analytics, scatter plot disproving revenue-hour link, and los
 
 ---
 
+## Conclusion & Learnings
+
+This project proves that rigorous data validation and a critical mindset can shatter assumptions and reveal the true drivers of business success. By redefining KPIs and building actionable dashboards, I empowered leadership to make data-driven, profitable decisions.
+
+---
 ## Testimonials
 
 > ⭐⭐⭐⭐⭐ “Laura was super efficient!!! Her communication was excellent. Her professionalism, her ability to understand the job and the extra mile she goes to exceed the expectations of the client is truly remarkable!!! We are looking forward to doing a lot more work with her.”  
@@ -100,12 +105,6 @@ Detailed financial analytics, scatter plot disproving revenue-hour link, and los
 > ⭐⭐⭐⭐⭐ “I had to ask her to create a dashboard to be delivered in 24 hours, and she did it very satisfactorily. At all times, she kept in communication, showed progress, explained every procedure, and made requested modifications with no problem—always professional and respectful. I absolutely recommend her!”  
 > — Fluchtenberg, Web Developer, Fiverr (Argentina)
 - [Source](https://es.fiverr.com/laura155555?public_mode=true)
----
-
-## Conclusion & Learnings
-
-This project proves that rigorous data validation and a critical mindset can shatter assumptions and reveal the true drivers of business success. By redefining KPIs and building actionable dashboards, I empowered leadership to make data-driven, profitable decisions.
-
 ---
 
 ## Contact
