@@ -85,7 +85,8 @@ Detailed financial analytics, scatter plot disproving revenue-hour link, and los
 
 ### Workforce Insights  
 Employee performance, payroll breakdown, and anomaly flags.
-<img width="1429" height="803" alt="Captura de pantalla 2025-08-01 002239" src="https://github.com/user-attachments/assets/ec57aff1-bd85-45d8-b6eb-caeaf53af64a" />
+<img width="1429" height="803" alt="Captura de pantalla 2025-08-01 002239" src="https://github.com/user-attachments/assets/9d3c5ae6-247c-4cbc-bafb-43ae29c5b31c" />
+
 ---
 
 ## Conclusion & Learnings
