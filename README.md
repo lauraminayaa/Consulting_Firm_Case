@@ -1,4 +1,4 @@
-# Uncovering Profitability: A Power BI Case Study
+# Uncovering Profitability: A Consulting Firm Case Study
 
 **Turning raw business data into actionable profit: uncovering $724K in hidden value with executive dashboards and sharp analytics.**
 
@@ -23,7 +23,6 @@
 - 🔗 **Built end-to-end data pipeline:** Excel → SQL → Power BI
 - 📊 **Designed interactive, executive-level dashboards**
 - 🛠️ **Tools:** SQL, DAX, Power Query, Power BI, Excel
-- ⭐ **Endorsed by global clients & business leaders**
 ---
 
 ## Project Overview
