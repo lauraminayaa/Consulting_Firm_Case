@@ -79,14 +79,13 @@ This project applies a finance-focused analytics workflow—leveraging Microsoft
 Key KPIs, profit leaders, and loss-driving clients.  
 ![Executive Dashboard](https://github.com/user-attachments/assets/495b501a-cfba-4233-aa02-bae172928999)
 
+### Finance Deep Dive  
+Detailed financial analytics, scatter plot disproving revenue-hour link, and loss-making projects.  
+![WhatsApp Image 2025-08-01 at 12 23 28 AM](https://github.com/user-attachments/assets/07d3b343-8255-4c74-a925-7fba0366d562)
+
 ### Workforce Insights  
 Employee performance, payroll breakdown, and anomaly flags.
 <img width="1429" height="803" alt="Captura de pantalla 2025-08-01 002239" src="https://github.com/user-attachments/assets/ec57aff1-bd85-45d8-b6eb-caeaf53af64a" />
-
-### Finance Deep Dive  
-Detailed financial analytics, scatter plot disproving revenue-hour link, and loss-making projects.  
-![Finance Deep Dive](https://github.com/user-attachments/assets/9de90c1b-2944-4133-910a-259aed629c67)
-
 ---
 
 ## Conclusion & Learnings
